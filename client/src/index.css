@@ -145,3 +145,24 @@
 .border-brand-success {
   border-color: var(--brand-success);
 }
+@layer utilities {
+  .bg-background {
+    background-color: var(--background);
+  }
+
+  .text-foreground {
+    color: var(--foreground);
+  }
+
+  .bg-primary {
+    background-color: var(--primary);
+  }
+
+  .text-primary {
+    color: var(--primary);
+  }
+
+  .border-border {
+    border-color: var(--border);
+  }
+}
